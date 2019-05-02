@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  nginx:
+    image : nginx
+    ports:
+      - "4000:80"
+    volumes:
+      - your volumn here:/usr/share/nginx/html
