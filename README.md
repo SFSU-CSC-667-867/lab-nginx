@@ -31,5 +31,13 @@ Default conf loction: `/etc/nginx/nginx.conf`
 
 ## FOR LAB
 Build a new dockerfile that is a self contained react app
-Push to dockerhub
+
+
+Push to dockerhub.
+
+
 Modify docker-compose file to serve a react app as a service.
+
+
+Next add a custom nginx.conf file so that you can serve static files off your machine on the /static-content directory.
+
